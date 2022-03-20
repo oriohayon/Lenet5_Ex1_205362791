@@ -140,7 +140,7 @@ def train_and_test_lenet5(lenet_mode='regular', n_epoch=1, run_mode='train', tar
         print('-- Starting train of ' + lenet_mode + ' LeNet5 --')
     elif 'test' in run_mode:
         train_flag, test_flag = False, True
-        print('-- Starting train of ' + lenet_mode + ' LeNet5 --')
+        print('-- Starting test of ' + lenet_mode + ' LeNet5 --')
     else:
         raise IOError('Bad run mode selected, validate you have either test or train in run mode argument')
 
